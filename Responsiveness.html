@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+         Peer Html    
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                * {
+                  box-sizing:border-box;
+                }
+                
+                .left {
+                  background-color:red;
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 20%, by default */
+                }
+                
+                .left2 {
+                  background-color:rgb(130, 175, 71);
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 60%, by default */
+                }
+                
+                .right {
+                  background-color:rgb(4, 67, 87);
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 20%, by default */
+                }
+                
+                .right2 {
+                  background-color:lightskyblue;
+                  padding:20px;
+                  float:left;
+                  width:25%; /* The width is 20%, by default */
+                }
+
+                .down1{
+                    background-color:purple;
+                  padding:20px;
+                  float:left;
+                  width:50%;
+                }
+
+                .down2{
+                    background-color:orange;
+                  padding:20px;
+                  float:left;
+                  width:50%;
+                }
+                /* Use a media query to add a break point at 800px: */
+                @media screen and (max-width:800px) 
+                { 
+                }   
+                  .left,.left2, .right,.right2 {
+                    width:25%; /* The width is 100%, when the viewport is 800px or smaller */
+                  }
+                  @media screen and (max-width:800px) {
+                  .down1,.down2 {
+                    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+                  }
+
+                }
+                </style>
+    </head>
+    <body bgcolor="">
+        <div style="background-color:rgb(247, 152, 10) ;padding:15px;">
+            <h1 style="align-content: center">Example of HTML Responsive</h1>
+          </div>
+          <p>
+                  <img src="assets/image/Wovem.jpg" style="width: 100%">
+          </p>
+          <p>
+            <div class="left">
+                <h1>
+                    Testing 1
+                </h1>
+            </div>
+            <div class="left2">
+                <h1>
+                    tEsting 2
+                </h1>    
+            </div>
+                <div class="right">
+                    <h1>
+                        teSting 3
+                    </h1>
+                    </div>
+                    <div class="right2">
+                        <h1>
+                            tesTing 4
+                        </h1>
+                        </div>
+            </p>
+            <div class="down1">
+                    <h1>
+                            testIng 5
+                        </h1>
+                </div>
+                <div class="down2">
+                        <h1>
+                            testiNg 6
+                        </h1>
+                    </div>
+            <p>
+
+            </p>            
+    </body>
+</html>
